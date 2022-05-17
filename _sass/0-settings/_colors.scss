@@ -45,3 +45,10 @@ $link-color-hover: darken($link-color, 15%);
 
 // Border
 $border-color: #f0f0f0;
+
+// Pagination
+$pagination-color: $gray-dark;
+$pagination-hover-color: $blue;
+$pagination-active-bg: $blue;
+$pagination-active-color: $white-color;
+$pagination-separator-color: $gray-lighter;
