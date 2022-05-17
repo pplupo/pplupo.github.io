@@ -2,20 +2,23 @@
 	COLORS
 =============== */
 
+$peter-blue: #506070;
+
 $primary-color: #33aaff;
 $secondary-color: #cfcfdd;
 $alternate-color: #404040;
 $red-color: #ee6c6c;
 $green-color: #55bf55;
 $white-color: #ffffff;
-$sidbar-bg-color: #506070;
+
 
 $dark: #222222;
 $dark-gray: #333333;
 $darkest: #444444;
 
 $gray: #a0a0a0;
-$gray-dark: #757575;
+//$gray-dark: #757575;
+$gray-dark: $dark-gray;
 $gray-light: #dddddd;
 $gray-lighten: #edeeee;
 $gray-lighter: #cccccc;
@@ -29,6 +32,9 @@ $blue-dark: #263959;
 $background: #fbfbfb;
 $alternate-background: #fafafa;
 
+// Sidebar Colors
+$sidebar-text-color: $white;
+$sidbar-bg-color: $peter-blue;
 
 // Body Color
 $text-color: #404040;
@@ -48,7 +54,7 @@ $border-color: #f0f0f0;
 
 // Pagination
 $pagination-color: $gray-dark;
-$pagination-hover-color: $blue;
-$pagination-active-bg: $blue;
+$pagination-hover-color: $peter-blue;
+$pagination-active-bg: $peter-blue;
 $pagination-active-color: $white-color;
 $pagination-separator-color: $gray-lighter;
