@@ -16,8 +16,8 @@
   <style>
     {% capture include_to_scssify %}
       {% include main.scss %}
-      {% pagination.scss %}
-      {% share-buttons.scss %}
+      {% include pagination.scss %}
+      {% include share-buttons.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
