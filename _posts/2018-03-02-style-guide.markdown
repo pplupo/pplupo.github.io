@@ -10,7 +10,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ***
 
-## Diagram ##
+### Diagram
 
 <div class="mermaid">
 sequenceDiagram
@@ -104,13 +104,16 @@ sequenceDiagram
 
 ***
 
+### Maps
+{% include map.html id="!1m14!1m12!1m3!1d11548.045294175135!2d-79.3690824!3d43.647932749999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1652915363146!5m2!1sen!2sca" %}
+
 #### Videos
 
 ###### Youtube
 
 <iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
 
-## Footnote ##
+### Footnote
 
 This has a footnote[^1].
 
