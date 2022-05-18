@@ -43,9 +43,7 @@ plugins:
   - webrick
   - jekyll-github-metadata
   - jekyll-mermaid-forked
-  
-mermaid:
- src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.1.1/mermaid.js'
+ 
 
 paginate: 7
 paginate_path: "/page/:num/"
