@@ -41,7 +41,8 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - webrick
-  - jekyll-github-metadata 
+  - jekyll-github-metadata
+  - jekyll-katex
 
 paginate: 7
 paginate_path: "/page/:num/"
