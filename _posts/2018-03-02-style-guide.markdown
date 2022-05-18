@@ -30,7 +30,7 @@ sequenceDiagram
 
 ## Math ##
 
-
+$$ {x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}} $$
 
 #### Headings by default:
 
