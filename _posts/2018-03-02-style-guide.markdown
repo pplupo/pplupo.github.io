@@ -28,6 +28,9 @@ sequenceDiagram
     end
 </div>
 
+## Math ##
+$$ {x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}} $$
+
 #### Headings by default:
 
 # H1 For example
