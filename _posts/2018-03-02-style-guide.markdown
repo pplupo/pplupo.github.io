@@ -30,7 +30,7 @@ sequenceDiagram
 
 ## Math ##
 
-$$ {x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}} $$
+
 
 #### Headings by default:
 
@@ -113,3 +113,9 @@ $$ {x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}} $$
 ###### Youtube
 
 <iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
+
+## Footnote ##
+
+This has a footnote[^1]
+
+[^1] The footnote.
