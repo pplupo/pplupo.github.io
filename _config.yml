@@ -28,7 +28,7 @@ mailchimp: https://pplupo.us8.list-manage.com/subscribe/post?u=2801b9b500b2a8324
 google-analytics: UA-8759853-3 # Add your identifier. For example UA-99631805-1
 
 # Comment Section (Disqus)
-disqus-identifier: swmgmtblog # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: #swmgmtblog # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
 markdown: kramdown
@@ -41,9 +41,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - webrick
-  - jekyll-github-metadata
-#  - jekyll-mermaid-forked
- 
+  - jekyll-github-metadata 
 
 paginate: 7
 paginate_path: "/page/:num/"
