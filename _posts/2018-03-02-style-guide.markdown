@@ -13,13 +13,19 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ## Diagram ##
 
 <div class="mermaid">
-{% mermaid %}
 sequenceDiagram
-Alice->>+John: Hello John, how are you?
-Alice->>+John: John, can you hear me?
-John-->>-Alice: Hi Alice, I can hear you!
-John-->>-Alice: I feel great!
-{% endmermaid %}
+    loop Daily query
+        Alice->>Bob: Hello Bob, how are you?
+        alt is sick
+            Bob->>Alice: Not so good :(
+        else is well
+            Bob->>Alice: Feeling fresh like a daisy
+        end
+
+        opt Extra response
+            Bob->>Alice: Thanks for asking
+        end
+    end
 </div>
 
 #### Headings by default:
