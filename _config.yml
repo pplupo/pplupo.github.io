@@ -42,7 +42,7 @@ plugins:
   - jemoji
   - webrick
   - jekyll-github-metadata
-  - jekyll-katex
+#  - jekyll-katex
 
 paginate: 7
 paginate_path: "/page/:num/"
