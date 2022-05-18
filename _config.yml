@@ -42,7 +42,7 @@ plugins:
   - jemoji
   - webrick
   - jekyll-github-metadata
-  - jekyll-mermaid-forked
+#  - jekyll-mermaid-forked
  
 
 paginate: 7
@@ -60,4 +60,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-# trigger deploy
