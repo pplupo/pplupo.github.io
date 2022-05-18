@@ -112,6 +112,6 @@ sequenceDiagram
 
 ## Footnote ##
 
-This has a footnote[^1]
+This has a footnote[^1].
 
-[^1] The footnote.
+[^1]: The footnote.
