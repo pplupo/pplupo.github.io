@@ -32,7 +32,7 @@ disqus-identifier: swmgmtblog # Add your shortname for Disqus Comment. For examp
 
 # Build settings
 markdown: kramdown
-  - math_engine: katex
+math_engine: katex
 
 permalink: /:year/:month/:day/:title/
 
