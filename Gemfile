@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'webrick'
   gem 'jekyll-github-metadata'
-  gem 'kramdown-math-katex'
+#  gem 'kramdown-math-katex'
   # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
   gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
