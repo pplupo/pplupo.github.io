@@ -30,7 +30,9 @@ sequenceDiagram
 
 ### Math
 {% raw %}
-\\(x^2 = \sqrt{y}\\)
+\\(F(x) &= \int^a_b \frac{1}{3}x^3\\)
+
+\\({x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}\\)
 {% endraw %}
 
 #### Headings by default:
