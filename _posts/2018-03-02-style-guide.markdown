@@ -30,9 +30,11 @@ sequenceDiagram
 
 ### Math
 {% raw %}
-katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-    throwOnError: false
-});
+<script>
+    katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
+        throwOnError: false
+    });
+</script>
 {% endraw %}
 
 #### Headings by default:
