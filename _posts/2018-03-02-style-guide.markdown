@@ -102,7 +102,7 @@ sequenceDiagram
 
 ![]({{site.baseurl}}/images/2.jpg)
 
-{% include figure.html src='{{site.baseurl}}/images/2.jpg' alt='image 2' caption='image caption' %}
+{% include figure.html src="{{site.baseurl}}/images/2.jpg" alt="image 2" caption="image caption" %}
 
 ***
 
@@ -115,7 +115,7 @@ sequenceDiagram
 
 <iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
 
-{% include youtube.html id='iWowJBRMtpc' %}
+{% include youtube.html id="iWowJBRMtpc" %}
 
 ### Footnote
 
