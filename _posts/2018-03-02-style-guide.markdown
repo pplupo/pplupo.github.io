@@ -28,6 +28,8 @@ sequenceDiagram
     end
 </div>
 
+$$ 2 + 2 $$
+
 #### Headings by default:
 
 # H1 For example
