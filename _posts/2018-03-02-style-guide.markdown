@@ -29,8 +29,14 @@ sequenceDiagram
 </div>
 
 ### Math
-{% include latex.html formula="F(x) &= \int^a_b \frac{1}{3}x^3"%}
-{% include latex.html formula="{x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}"%}
+{% include latex.html formula="f(n) = \left\{ 
+         \begin{array}{l l}
+            n/2 & \quad \text{if $n$ is even}\\
+            -(n+1)/2 & \quad \text{if $n$ is odd}\\
+          \end{array} 
+          \right." %}
+{% include latex.html formula="\int_{a}^{b} f(x)dx = F(b) - F(a)" "%}
+{% include latex.html formula="{x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}} "%}
 
 #### Headings by default:
 
