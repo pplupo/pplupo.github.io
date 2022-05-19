@@ -113,8 +113,6 @@ sequenceDiagram
 
 ###### Youtube
 
-<iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
-
 {% include youtube.html id="iWowJBRMtpc" %}
 
 ### Footnote
