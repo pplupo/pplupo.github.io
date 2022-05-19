@@ -102,7 +102,7 @@ sequenceDiagram
 
 ![]({{site.baseurl}}/images/2.jpg)
 
-{% include figure.html src="{{site.baseurl}}/images/2.jpg" alt="image 2" caption="image caption" %}
+{% include figure.html src=site.baseurl"/images/2.jpg" alt="image 2" caption="image caption" %}
 
 ***
 
