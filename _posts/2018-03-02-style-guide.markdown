@@ -29,12 +29,9 @@ sequenceDiagram
 </div>
 
 ### Math
-
-{% raw %}
-$$F(x) &= \int^a_b \frac{1}{3}x^3$$
-
-$${x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}$$
-{% endraw %}
+katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
+    throwOnError: false
+});
 
 #### Headings by default:
 
