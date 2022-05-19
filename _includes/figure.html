@@ -1,0 +1,12 @@
+{% if include.src and include.caption %}
+  {% assign alt = include.alt | default: include.caption | strip_html %}
+  <figure>
+	  <img alt="{{ alt }}" src="{{ include.src }}" class="figure" loading="lazy" />
+    {% endif %}
+    <figcaption markdown="span">
+      {{ include.caption }}
+    </figcaption>
+  </figure>
+{% else %}
+{% include prompt.html type="accent" text="`ERROR: Missing parameter(s) in figure`.<br/><br/>Make sure you provide the following parameters: `src`, `caption`." %}
+{% endif %}
