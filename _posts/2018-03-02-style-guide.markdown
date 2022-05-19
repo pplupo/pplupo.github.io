@@ -32,6 +32,7 @@ sequenceDiagram
 
 {% latex %}
 F(x) &= \int^a_b \frac{1}{3}x^3
+
 {x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}
 {% endlatex %}
 
