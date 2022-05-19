@@ -100,8 +100,6 @@ sequenceDiagram
 
 #### Images
 
-![]({{site.baseurl}}/images/2.jpg)
-
 {% include figure.html src="/images/2.jpg" alt="image 2" caption="image caption" %}
 
 ***
