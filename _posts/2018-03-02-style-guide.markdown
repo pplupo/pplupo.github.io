@@ -28,7 +28,9 @@ sequenceDiagram
     end
 </div>
 
-$$ 2 + 2 $$
+### Math
+
+$$ F(x) &= \int^a_b \frac{1}{3}x^3 $$
 
 #### Headings by default:
 
