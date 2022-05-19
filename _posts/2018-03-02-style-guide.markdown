@@ -30,7 +30,7 @@ sequenceDiagram
 
 ### Math
 {% raw %}
-\(x^2 = \sqrt{y}\)
+\\(x^2 = \sqrt{y}\\)
 {% endraw %}
 
 #### Headings by default:
