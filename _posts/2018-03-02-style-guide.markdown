@@ -31,13 +31,9 @@ sequenceDiagram
 <!--onload="renderMathInElement(document.body);"-->
 
 ### Math
-%\int_{a}^{b} f(x)dx = F(b) - F(a)%
+
 {% include latex.html formula="\int_{a}^{b} f(x)dx = F(b) - F(a)" %}
 {% include latex.html formula="{x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}" %}
-
-{% include latex.html formula="f(n)=\left\{\begin{array}{ll}n/2&\quad\text{if $n$ is even}\\-(n+1)/2 & \quad \text{if $n$ is odd}\\\end{array}\right." %}
-
-$$f(n)=\left\{\begin{array}{ll}n/2&\quad\text{if $n$ is even}\\-(n+1)/2 & \quad \text{if $n$ is odd}\\\end{array}\right.$$
 
 #### Headings by default:
 
@@ -114,10 +110,10 @@ $$f(n)=\left\{\begin{array}{ll}n/2&\quad\text{if $n$ is even}\\-(n+1)/2 & \quad 
 {% include figure.html src="/images/2.jpg" alt="image 2" caption="image caption" %}
 
 ***
-{% comment %}
+
 ### Maps
 {% include map.html id="!1m14!1m12!1m3!1d11548.045294175135!2d-79.3690824!3d43.647932749999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1652915363146!5m2!1sen!2sca" %}
-{% endcomment %}
+
 #### Videos
 
 ###### Youtube
