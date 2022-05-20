@@ -34,6 +34,7 @@ sequenceDiagram
 
 {% include latex.html formula="\int_{a}^{b} f(x)dx = F(b) - F(a)" %}
 {% include latex.html formula="{x=\frac {-b\pm \sqrt {{b}^{2}-4ac}} {2a}}" %}
+{% include latex.html formula="|x| = \left\{ \begin{array}{cl} x & : \ x \geq 0 \\ -x & : \ x < 0 \end{array} \right." %}
 
 #### Headings by default:
 
